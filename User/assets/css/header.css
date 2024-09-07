@@ -1,0 +1,42 @@
+.logo {
+  width: 350px;
+  height: 100px;
+  margin-left: 23px;
+  margin-top: 8px;
+}
+
+#breadcrumb-list {
+  background-color: #3A53A4;
+  color: white;
+}
+
+/* Breadcrumbs */
+
+.breadcrumb-font a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-left: 23px;
+  font-family: 'Inter', sans-serif;
+}
+
+.breadcrumb-font a:hover {
+  color: white;
+}
+
+.breadcrumb-font i {
+  margin-right: 5px;
+  color: white;
+}
+
+.breadcrumb-item.active {
+  color: white;
+}
+
+.breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+  content: "/";
+  color: white;
+  padding: 0 5px;
+}
+
